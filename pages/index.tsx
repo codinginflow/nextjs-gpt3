@@ -2,10 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import mainImage from '@/assets/images/main_image.jpg'
-import { Form } from 'react-bootstrap'
+import { Form, Button, Spinner } from 'react-bootstrap'
 import { FormEvent, useState } from 'react'
-import Button from 'react-bootstrap/esm/Button'
-import Spinner from 'react-bootstrap/esm/Spinner'
 
 export default function Home() {
 
